@@ -1,0 +1,9 @@
+.course {
+    background: $grey;
+    &-wrapper {
+        @include flexBetween;
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+}
